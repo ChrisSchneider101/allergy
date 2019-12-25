@@ -1,0 +1,62 @@
+Allergy = {
+	"dairy": {
+		"image": "https://iadsb.tmgrup.com.tr/e4bcb1/645/344/0/40/800/466?u=https://idsb.tmgrup.com.tr/2019/07/05/1562316369054.jpg",
+		"english": "Dairy",
+		"spanish": "La Dairy",
+		"chinese": "Dairy but Chinese",
+		"sub": {
+			"milk": {
+				"image": "https://dairyfarmersofcanada.ca/sites/default/files/image_file_browser/article/2019/getty-854296650.jpg",
+				"english": "Milk",
+				"spanish": "La Milk",
+				"chinese": "Chinese Milk"
+			},
+			"milk_powder": {
+				"image": "https://images-na.ssl-images-amazon.com/images/I/61FTh%2BuSB8L._SY445_.jpg",
+				"english": "Milk Powder",
+				"spanish": "La Milk Powder",
+				"chinese": "Chinese Milk Powder"
+			},
+			"cheese": {
+				"image": "https://www.vegetariantimes.com/.image/t_share/MTQ2ODI5MzI5MzA5NzcxNzM2/how-to-buy-veg-friendly-cheesejpg.jpg",
+				"english": "Cheese",
+				"spanish": "I'm intentionally leaving Chinese blank to make sure it doesnt freak out when a language isnt found",
+			},
+		}
+	},
+	"eggs": {
+		"image": "https://cdn-prod.medicalnewstoday.com/content/images/articles/283/283659/a-basket-of-eggs.jpg",
+		"english": "Eggs",
+		"spanish": "El Eggs",
+		"chinese": "Chinese Egg",
+	},
+	"tree_nuts": {
+		"english": "Tree Nuts",
+	}
+}
+
+Text = {
+	"main_greeting": {
+		"english": "Hello! I am susceptible to severe allergic reactions from the following items:",
+		"spanish": "¡Hola! Soy susceptible a reacciones alérgicas graves a los siguientes elementos:",
+		"chinese": "Nǐ hǎo! Wǒ róngyì duì yǐxià wùpǐn chǎnshēng yánzhòng de guòmǐn fǎnyìng:"
+	},
+	"settings_greeting": {
+		"english": "Select your language, the translated language, and your allergies:",
+		"spanish": "Seleccione su idioma, el idioma traducido y sus alergias:",
+		"chinese": "Xuǎnzé nín de yǔyán, fānyì de yǔyán hé guòmǐn yuán:"
+	},
+	"languages": {
+		"english": "English",
+		"spanish": "Español",
+		"chinese": "Zhōngwén"
+	}
+	
+}
+
+Image = {
+	"user_language": "user_lang2.jpg",
+	"translated_language": "tran_lang2.jpg",
+	"category_selected": "in.jpg",
+	"category_deselected": "out.jpg"
+}

@@ -1,0 +1,98 @@
+body {
+	/* these are the default, this doesnt necessarily need to be here */
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+#settings_button {
+	height: 50px;
+	width: 50px;
+	background-color: cyan;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+}
+
+#main_container {}
+#main_greeting_element {
+	color: blue;
+	font-size: 64px;
+}
+#displayed_allergies_element {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.main_allergy_category {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	background-color: lime;
+	height: 100px;
+}
+.main_allergy_category_title {
+	background-color: lightgreen;
+	color: green;
+	width: 150px;
+	text-align: center;
+}
+.main_allergy_category_image {
+	height: 100px;
+	width: 150px;
+}
+
+#settings_container {
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	background-color: grey;
+	position: fixed;
+	visibility: hidden;
+}
+#settings_greeting_element {
+	color: blue;
+	font-size: 64px;
+}
+#user_language_element {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	background-color: red;
+}
+#translated_language_element {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	background-color: blue;
+}
+#user_language_dropdown_list {}
+#translated_language_dropdown_list {}
+.language_image {
+	width: 64px;
+	height: 64px;
+}
+#user_language_image {}
+#translated_language_image {}
+#available_allergies_element {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background-color: green;
+}
+.settings_allergy_category {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.settings_allergy_category_title {
+	background-color: black;
+	color: white;
+}
+.settings_allergy_category_image {
+	height: 100px;
+	width: 150px;
+}
+.settings_allergy_category_selector {
+	height: 100px;
+	width: 100px;
+}
